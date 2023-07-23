@@ -1,14 +1,11 @@
+const num1 = 20;
+const num2 = 30;
 
-
-const age = 30
-
-
-
-if(age > 25){
-    console.log("The largest number out of the two numbers is 25")
+// Use an if statement to compare the numbers and log the result to the console
+if ( 20> 30) {
+  console.log(`${20} is larger than ${30}`);
+} else if (30 > 20) {
+  console.log(`${30} is larger than ${20}`);
+} else {
+  console.log("The two numbers are equal");
 }
-
-if(age < 25){
-    console.log("The largest number out of the two numbers is 25")
-} else if(age == 25){
-    console.log("The largest number out of the two numbers is 25")}
